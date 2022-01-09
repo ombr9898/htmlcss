@@ -1,0 +1,54 @@
+.saleAd {
+    display: flex;
+    font-size: x-small;
+    text-align: left;
+    margin: 5%;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+}
+.nav > div {
+    text-align:center;
+    width:50%;
+    margin: 10px 0px;
+
+}
+.nav > div:hover {
+    background-color: #2222;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.saleAd-right:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.saleAd-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+}
+.content-saleAd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product {
+    width: 100px;
+    height: 100px;
+}
+.foot {
+    background-color: #2196F3;
+    color: white;
+    text-align: left;
+    padding: 3%;
+    margin-top:40%
+}
